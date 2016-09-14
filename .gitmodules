@@ -1,0 +1,15 @@
+[submodule "holo"]
+	path = holo
+	url = https://github.com/holocm/holo.git
+[submodule "holo-build"]
+	path = holo-build
+	url = https://github.com/holocm/holo-build.git
+[submodule "holo-run-scripts"]
+	path = holo-run-scripts
+	url = https://github.com/holocm/holo-run-scripts.git
+[submodule "holo-ssh-keys"]
+	path = holo-ssh-keys
+	url = https://github.com/holocm/holo-ssh-keys.git
+[submodule "holo-users-groups"]
+	path = holo-users-groups
+	url = https://github.com/holocm/holo-users-groups.git
