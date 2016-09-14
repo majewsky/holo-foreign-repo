@@ -5,3 +5,5 @@ release      = 1
 description  = "Cross-distribution system package compiler"
 author       = "Stefan Majewsky <holo-packaging@posteo.de>"
 architecture = "x86_64"
+
+requires     = ["xz-utils"]

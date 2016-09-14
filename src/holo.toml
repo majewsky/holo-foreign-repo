@@ -5,3 +5,6 @@ release      = 1
 description  = "Minimalistic configuration management"
 author       = "Stefan Majewsky <holo-packaging@posteo.de>"
 architecture = "x86_64"
+
+requires     = ["git"]
+provides     = ["holo-files"]
