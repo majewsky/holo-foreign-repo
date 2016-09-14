@@ -1,0 +1,7 @@
+[package]
+name         = "holo-ssh-keys"
+version      = "1.2"
+release      = 1
+description  = "Holo plugin for provisioning SSH public keys to $HOME/.ssh/authorized_keys"
+author       = "Stefan Majewsky <holo-packaging@posteo.de>"
+architecture = "x86_64"

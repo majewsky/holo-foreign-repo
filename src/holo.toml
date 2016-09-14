@@ -1,0 +1,7 @@
+[package]
+name         = "holo"
+version      = "1.2.1"
+release      = 1
+description  = "Minimalistic configuration management"
+author       = "Stefan Majewsky <holo-packaging@posteo.de>"
+architecture = "x86_64"
