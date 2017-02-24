@@ -32,7 +32,7 @@ clear-packages:
 	@rm -f -- pkg/*.deb pkg/*.rpm
 
 packages-%: pkg/%.pkg.toml clear-packages
-	cd pkg && holo-build --debian ../$< && holo-build --rpm ../$<
+	cd pkg && holo-build --format=debian ../$< && holo-build --format=rpm ../$<
 all-packages: $(patsubst %,packages-%,$(COMPONENTS))
 
 ################################################################################

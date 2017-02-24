@@ -1,6 +1,6 @@
 [package]
 name         = "holo-build"
-version      = "1.4"
+version      = "1.5"
 release      = 1
 description  = "Cross-distribution system package compiler"
 author       = "Stefan Majewsky <holo-packaging@posteo.de>"
