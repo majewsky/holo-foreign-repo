@@ -6,6 +6,10 @@ COMPONENTS     := $(patsubst src/%.toml,%,$(wildcard src/*.toml))
 clear-tmp:
 	@git clean -dxf tmp
 
+pull-repo-apt:
+	rsync -vau --delete-delay --progress bethselamin:/data/static-web/repo.holocm.org/debian/ repo/debian/
+pull-repo: pull-repo-apt
+
 ################################################################################
 # phase 1: build components and install to pkg/$COMPONENT/
 
