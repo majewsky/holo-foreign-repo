@@ -1,8 +1,0 @@
-[package]
-name        = "holo-run-scripts"
-version     = "1.3"
-release     = 2
-description = "Holo plugin for running custom provisioning scripts"
-author      = "Stefan Majewsky <holo-packaging@posteo.de>"
-
-requires    = ["holo >= 1.2", "holo < 2.0"]

@@ -1,9 +1,0 @@
-[package]
-name         = "holo-users-groups"
-version      = "2.1"
-release      = 2
-description  = "Holo plugin for provisioning user accounts and groups"
-author       = "Stefan Majewsky <holo-packaging@posteo.de>"
-architecture = "x86_64"
-
-requires    = ["holo >= 1.2", "holo < 2.0", "passwd"]

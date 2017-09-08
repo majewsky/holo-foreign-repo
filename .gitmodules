@@ -4,12 +4,3 @@
 [submodule "holo-build"]
 	path = src/holo-build
 	url = https://github.com/holocm/holo-build.git
-[submodule "holo-run-scripts"]
-	path = src/holo-run-scripts
-	url = https://github.com/holocm/holo-run-scripts.git
-[submodule "holo-ssh-keys"]
-	path = src/holo-ssh-keys
-	url = https://github.com/holocm/holo-ssh-keys.git
-[submodule "holo-users-groups"]
-	path = src/holo-users-groups
-	url = https://github.com/holocm/holo-users-groups.git
