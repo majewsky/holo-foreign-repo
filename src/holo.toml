@@ -1,6 +1,6 @@
 [package]
 name         = "holo"
-version      = "2.0"
+version      = "2.0.1"
 release      = 1
 description  = "Minimalistic configuration management"
 author       = "Stefan Majewsky <holo-packaging@posteo.de>"
