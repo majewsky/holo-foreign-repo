@@ -1,11 +1,11 @@
 [package]
 name         = "holo"
 version      = "2.0.3"
-release      = 1
+release      = 2
 description  = "Minimalistic configuration management"
 author       = "Stefan Majewsky <holo-packaging@posteo.de>"
 architecture = "x86_64"
 
-requires     = ["git", "openssh", "shadow"]
+requires     = ["git", "openssh-client", "passwd"]
 provides     = ["holo-files", "holo-run-scripts", "holo-ssh-keys", "holo-users-groups"]
 replaces     = [              "holo-run-scripts", "holo-ssh-keys", "holo-users-groups"]
