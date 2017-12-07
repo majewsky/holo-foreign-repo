@@ -25,3 +25,8 @@ find -type d -empty | sed 's+^\./++' | while read DIR; do
     echo "path = \"/${DIR}\""
     echo "mode = \"$(stat --printf="%04a" "${DIR}")\""
 done
+find -type l | sed 's+^\./++' | while read LINK; do
+    echo '[[symlink]]'
+    echo "path = \"/${LINK}\""
+    echo "target = \"$(readlink "${LINK}")\""
+done
